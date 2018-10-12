@@ -39,9 +39,6 @@ RCT_EXPORT_METHOD(setScreenName: (NSString*)name)
   });
 }
 
-RCT_EXPORT_METHOD(setEnabled: (BOOL)enabled)
-{
-  [[FIRAnalyticsConfiguration sharedInstance] setAnalyticsCollectionEnabled:enabled];
-}
+
 
 @end

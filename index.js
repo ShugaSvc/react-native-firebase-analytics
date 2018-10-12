@@ -23,9 +23,6 @@ class FA {
         FIRAnalytics.setScreenName(name);
     }
 
-    static setEnabled(enabled) {
-        FIRAnalytics.setEnabled(enabled);
-    }
 }
 
 module.exports = FA;
